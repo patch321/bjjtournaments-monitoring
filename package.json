@@ -1,0 +1,11 @@
+{
+  "name": "bjjtournaments-monitoring",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/operations-journeys.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}
