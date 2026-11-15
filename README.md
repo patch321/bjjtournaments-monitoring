@@ -2,7 +2,7 @@
 
 Independent browser checks for the public BJJ Tournaments site and its operations monitor. Checks cover usable event rows, search, upcoming and past events, organizer and location pages, calendar feeds, real 404s, certificate and domain expiry, and the monitor heartbeat and mail status.
 
-Staging runs every fifteen minutes. Production will be added when its report-only monitoring prerequisites pass. Cloudflare continues public availability checks every five minutes and pipeline checks every fifteen minutes.
+Staging is prepared for a fifteen-minute schedule after the first hosted acceptance run. Production will be added when its report-only monitoring prerequisites pass. Cloudflare continues public availability checks every five minutes and pipeline checks every fifteen minutes.
 
 The workflow uses standard GitHub-hosted Linux runners. GitHub provides these free for public repositories. It uploads no artifacts. See [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
 
