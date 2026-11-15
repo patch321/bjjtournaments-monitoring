@@ -1,5 +1,7 @@
 name: Public BJJ journey checks
 on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 permissions:
   contents: read
